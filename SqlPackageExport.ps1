@@ -42,6 +42,6 @@ catch
 {
     Write-Host "--> An error occurred !" -ForegroundColor Red
     Write-Host "--> Check the ERROR above !" -ForegroundColor Red
-
+    Write-Host $_.ScriptStackTrace
     pause
 }
